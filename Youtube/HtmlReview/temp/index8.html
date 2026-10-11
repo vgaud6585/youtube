@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="hi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete HTML Form</title>
+  </head>
+  <body>
+    <h1>This is not good aor i thing better </h1>
+    <h1>Complete Registration Form</h1>
+    <form action="" method="post">
+      
+      <!-- Text Inputs -->
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" placeholder="Enter full name" required /><br /><br />
+      
+      <label for="em">Email:</label>
+      <input type="email" name="em" id="em" placeholder="example@mail.com" required /><br /><br />
+      
+      <label for="password1">Password:</label>
+      <input type="password" name="password" id="password1" required /><br /><br />
+      
+      <label for="num">Phone No.:</label>
+      <input type="tel" name="num" id="num" /><br /><br />
+
+      <!-- Date & File Upload -->
+      <label for="dob">Date of Birth:</label>
+      <input type="date" name="dob" id="dob" /><br /><br />
+
+      <label for="upload">Upload Resume:</label>
+      <input type="file" name="upload" id="upload" /><br /><br />
+
+      <!-- Radio Buttons -->
+      <p><strong>Gender:</strong></p>
+      <input type="radio" name="gender" id="male" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" value="female" />
+      <label for="female">Female</label><br /><br />
+
+      <!-- Dropdown Select -->
+      <label for="city">Choose City:</label>
+      <select name="city" id="city">
+        <option value="delhi">Delhi</option>
+        <option value="mumbai">Mumbai</option>
+      </select><br /><br />
+
+      <!-- Textarea -->
+      <label for="address">Address:</label><br />
+      <textarea name="address" id="address" rows="3" cols="30"></textarea><br /><br />
+
+      <!-- Color Picker -->
+      <label for="colorpicker">Choose Color:</label>
+      <input type="color" name="colorpicker" id="colorpicker" value="#ff0000" /><br /><br />
+      
+      <!-- Submit Button -->
+      <input type="submit" name="save" id="save" value="Submit !!" />
+    </form>
+  </body>
+</html>
