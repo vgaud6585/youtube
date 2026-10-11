@@ -1,0 +1,31 @@
+HTML सीखने का सही और पूरा रोडमैप (Roadmap) क्रम अनुसार नीचे दिया गया है:
+## 1. HTML Basics & Setup
+ * **Introduction:** HTML क्या है और वेब पेज कैसे बनता है?
+ * **Document Structure:** <!DOCTYPE html>, <html>, <head>, <body> का बेसिक ढांचा।
+ * **Development Setup:** VS Code इंस्टाल करना और 'Live Server' एक्सटेंशन चलाना।
+ * **First Webpage:** पहला "Hello World" पेज बनाना और ब्राउज़र में देखना।
+## 2. Text Formatting & Structure
+ * **Heading Tags:** <h1> से लेकर <h6> तक के इस्तेमाल।
+ * **Paragraphs & Breaks:** <p> टैग, <br> (Line Break), और <hr> (Horizontal Rule)।
+ * **Styling Text:** <b>, <i>, <u>, <strong>, <em>, <sub>, <sup>, <mark>।
+ * **Comments:** कोड में <!-- Comment --> लिखना ताकि कोड आसानी से समझ आए।
+## 3. Core Attributes & Media
+ * **Global Attributes:** id, class, style, title, lang का प्रयोग।
+ * **Links (Anchors):** <a> टैग, href, target="_blank" से पेज और वेबसाइट्स जोड़ना।
+ * **Images:** <img> टैग, src, alt, width, height सेट करना।
+ * **Audio & Video:** <audio> और <video> टैग से मीडिया कंट्रोल जोड़ना।
+## 4. Lists & Tables
+ * **Ordered & Unordered Lists:** <ol>, <ul>, और <li> से पॉइंटर्स बनाना।
+ * **Description Lists:** <dl>, <dt>, और <dd> का प्रयोग।
+ * **HTML Tables:** <table>, <tr>, <th>, <td> से डेटा अरेंज करना।
+ * **Advanced Tables:** colspan और rowspan से सेल्स मर्ज करना।
+## 5. HTML Forms & Inputs (वेबसाइट का मुख्य हिस्सा)
+ * **Form Basics:** <form> टैग, action, और method (GET/POST)।
+ * **Input Elements:** text, password, email, number, radio, checkbox, file, submit आदि।
+ * **Interactive Elements:** <label>, <textarea>, <select>, <option>, <button>।
+ * **Form Validation:** required, placeholder, min, max, pattern का इस्तेमाल।
+## 6. HTML Layout & Semantics
+ * **Block vs Inline:** <div> और <span> के बीच का अंतर समझना।
+ * **Semantic HTML5:** <header>, <nav>, <main>, <section>, <article>, <aside>, <footer> (SEO के लिए बेहद ज़रूरी)।
+ * **iFrames:** <iframe> टैग से दूसरी वेबसाइट या Google Maps/YouTube एम्बेड करना।
+क्या आप पहले टॉपिक **"Document Structure"** का बेसिक कोड देखकर शुरुआत करना चाहेंगे?
